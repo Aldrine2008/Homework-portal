@@ -1,0 +1,32 @@
+{
+  "name": "homework-portal",
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://Aldrine2008.github.io/Homework-portal",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build && echo 'Built successfully'",
+    "deploy": "gh-pages -d build",
+    "postdeploy": "echo 'Deployment complete!'",
+    "clean": "rimraf dist deploy .cache"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.11.0",
+    "lucide-react": "^0.533.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.7.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "postcss-import": "^16.1.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.0.0"
+  }
+}
